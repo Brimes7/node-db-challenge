@@ -1,0 +1,35 @@
+{
+    "name": "node-db-challenge",
+    "version": "1.0.0",
+    "description": "Node DB Challenge",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "server": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Brimes7/node-db-challenge/tree/brandy-rimes"
+    },
+    "keywords": [
+        "node",
+        "unit",
+        "challenge"
+    ],
+    "author": "Lambda School",
+    "bugs": {
+        "url": "https://github.com/LambdaSchool/Sprint-Challenge-Node-Express/issues"
+    },
+    "homepage": "https://github.com/LambdaSchool/Sprint-Challenge-Node-Express#readme",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "helmet": "^3.21.2",
+        "knex": "^0.17.6",
+        "nodemon": "^1.19.4",
+        "sqlite3": "^4.1.0"
+    },
+    "devDependencies": {
+        "knex-cleaner": "^1.2.1"
+    }
+}
